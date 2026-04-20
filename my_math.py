@@ -14,7 +14,32 @@
 
 #function 1 amadou
 
-#sqrt(x): Square root of x
+#is_prime(x): Check if x is a prime
+def is_prime(x):
+    """
+    Function Name: is_prime
+
+    Purpose:
+    This function checks whether a given number is a prime number.
+
+    Parameters:
+    x (int): The number to check.
+
+    Return:
+    bool: Returns True if x is a prime number, otherwise returns False.
+    """
+
+    # Numbers less than 2 are not prime
+    if x < 2:
+        return False
+
+    # Check divisibility from 2 to x-1
+    for i in range(2, x):
+        if x % i == 0:
+            return False
+
+    # If no divisors found, number is prime
+    return True
 
 
 
