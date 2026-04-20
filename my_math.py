@@ -46,6 +46,26 @@ def is_prime(x):
 
 
 #function 2 amadou
+def sum_of_digits(n):
+    """
+    Function Name: sum_of_digits
 
+    Purpose:
+    This function calculates the sum of all digits in a given number.
+
+    Parameters:
+    n (int): The number whose digits will be summed.
+
+    Return:
+    int: The sum of the digits of n.
+    """
+
+    total = 0
+
+    # Convert number to string to loop through digits
+    for digit in str(n):
+        total += int(digit)
+
+    return total
 
 
