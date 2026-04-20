@@ -51,7 +51,7 @@ def sum_of_digits(n):
     Function Name: sum_of_digits
 
     Purpose:
-    This function calculates the sum of all digits in a given number.
+    This function calculates the sum of all digits in a given number, including negative numbers.
 
     Parameters:
     n (int): The number whose digits will be summed.
@@ -63,7 +63,7 @@ def sum_of_digits(n):
     total = 0
 
     # Convert number to string to loop through digits
-    for digit in str(n):
+    for digit in str(abs(n)):
         total += int(digit)
 
     return total
