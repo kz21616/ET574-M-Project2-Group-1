@@ -13,10 +13,12 @@ expo(x,y)
   
 #function 2 kevin
 
+def hypotonuse(a,b):
+    print(f"The hypotenuse is {(a**2 + b**2)**0.5}")
 
-
-
-
+a = float(input("Side A is: "))
+b = float(input("Side B is: "))
+hypotonuse(a,b)
 
 #function 1 amadou
 
