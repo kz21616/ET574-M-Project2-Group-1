@@ -3,8 +3,14 @@
 #pow(x, y): x raised to the power y
 
 
+def expo(x,y):
+    print(f"{x}to the power of {y} is {x**y}")
 
-
+ 
+x = float(input("Base: "))
+y = float(input("Exponent: "))
+expo(x,y)
+  
 #function 2 kevin
 
 
