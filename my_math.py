@@ -20,10 +20,17 @@ def hypotonuse(a,b):
     # b = float(input("Side B is: "))
     hypotonuse(a,b)
 
+
+
+
+
+
 #function 1 amadou
 
 #is_prime(x): Check if x is a prime
+
 def is_prime(x):
+   
     """
     Function Name: is_prime
 
@@ -53,13 +60,13 @@ def is_prime(x):
 
 
 
-#function 2 amadou
+#functions 2 amadou
 def sum_of_digits(n):
     """
     Function Name: sum_of_digits
 
     Purpose:
-    This function calculates the sum of all digits in a given number, including negative numbers.
+    This function calculates the sum of all digits in a given number.
 
     Parameters:
     n (int): The number whose digits will be summed.
@@ -75,5 +82,3 @@ def sum_of_digits(n):
         total += int(digit)
 
     return total
-
-

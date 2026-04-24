@@ -28,21 +28,7 @@ class test_sum(unittest.TestCase):
         self.assertEqual(sum_of_digits(789), 24)
 
     
-
-
-
-
-
-
-
 #Amadou test:
-
-
-
-
-
-
-
 
 if __name__ == "__main__":
     unittest.main()
