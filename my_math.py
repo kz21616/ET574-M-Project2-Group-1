@@ -7,8 +7,8 @@ def expo(x,y):
     return f"{x}to the power of {y} is {x**y}"
 
  
-    x = float(input("Base: "))
-    y = float(input("Exponent: "))
+    # x = float(input("Base: "))
+    # y = float(input("Exponent: "))
     expo(x,y)
   
 #function 2 kevin
@@ -16,8 +16,8 @@ def expo(x,y):
 def hypotonuse(a,b):
     return f"The hypotenuse is {(a**2 + b**2)**0.5}"
 
-    a = float(input("Side A is: "))
-    b = float(input("Side B is: "))
+    # a = float(input("Side A is: "))
+    # b = float(input("Side B is: "))
     hypotonuse(a,b)
 
 #function 1 amadou
