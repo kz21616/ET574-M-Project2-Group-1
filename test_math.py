@@ -29,6 +29,17 @@ class test_sum(unittest.TestCase):
 
     
 #Amadou test:
+class TestKevinFunctions(unittest.TestCase):
 
-if __name__ == "__main__":
+    def test_expo(self):
+        self.assertEqual(expo(2, 3), 8)
+        self.assertEqual(expo(5, 0), 1)
+        self.assertEqual(expo(2, -1), 0.5)
+
+    def test_hypotonuse(self):
+        self.assertEqual(hypotonuse(3, 4), 5.0)
+        self.assertEqual(hypotonuse(0, 0), 0.0)
+        self.assertEqual(hypotonuse(1.5, 2.5), (1.5**2 + 2.5**2)**0.5)
+
+if __name__ == '__main__':
     unittest.main()
