@@ -1,0 +1,7 @@
+User ID,Task Description,Assigned To,Status
+1,Create is_prime function,Amadou,Completed
+2,Create sum_of_digits function,Amadou,Completed
+3,Create expo function,Kevin,Completed
+4,Create hypotenuse function,Kevin,Completed
+5,Write tests for is_prime and sum_of_digits,Kevin,Completed
+6,Write tests for expo and hypotenuse,Amadou,Completed
