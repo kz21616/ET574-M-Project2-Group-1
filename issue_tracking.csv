@@ -5,3 +5,7 @@ User ID,Task Description,Assigned To,Status
 4,Create hypotenuse function,Kevin,Completed
 5,Write tests for is_prime and sum_of_digits,Kevin,Completed
 6,Write tests for expo and hypotenuse,Amadou,Completed
+7,Fixed typo in code,Kevin,Completed
+8,Updated test_math to follow requirements,Amadou,Completed
+9,Changed print statement to return,Kevin,Completed
+10,Fixed spacing,Kevin,Completed
