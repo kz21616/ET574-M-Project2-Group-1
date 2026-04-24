@@ -5,10 +5,19 @@ from my_math import expo, hypotonuse, is_prime, sum_of_digits
 
 class test_prime:
     def test_one(self):
-        self.assertFalse(self.is_prime(1))  
+        self.assertFalse(is_prime(1))  
 
     def test_zero(self):
-        self.assertFalse(self.isprime(0))  
+        self.assertFalse(is_prime(0))  
+
+    def test_negative(self):
+        self.assertFalse(is_prime(-4))
+
+    def test_prime(self):
+        self.assertTrue(isprime(7))
+
+    def test_positive(self):
+        self.assertFalse(is_prime(10))
 
 
 
@@ -16,7 +25,6 @@ class test_prime:
 
 
 
-expo(2,3)
 
 
 
@@ -34,4 +42,4 @@ expo(2,3)
 
 
 if __name__ == "__main__":
-    unittest.main
+    unittest.main()
