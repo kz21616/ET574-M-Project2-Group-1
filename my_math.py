@@ -5,8 +5,6 @@
 
 def expo(x,y):
     return f"{x}to the power of {y} is {x**y}"
-
- 
     # x = float(input("Base: "))
     # y = float(input("Exponent: "))
     expo(x,y)
@@ -19,11 +17,6 @@ def hypotonuse(a,b):
     # a = float(input("Side A is: "))
     # b = float(input("Side B is: "))
     hypotonuse(a,b)
-
-
-
-
-
 
 #function 1 amadou
 
@@ -55,11 +48,6 @@ def is_prime(x):
 
     # If no divisors found, number is prime
     return True
-
-
-
-
-
 #functions 2 amadou
 def sum_of_digits(n):
     """
