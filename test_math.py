@@ -21,10 +21,13 @@ class test_prime(unittest.TestCase):
 
 
 
+class test_sum(unittest.TestCase):
+    def test_sum(self):
+        self.assertEqual(sum_of_digits(123), 6)
+        self.assertEqual(sum_of_digits(456), 15)
+        self.assertEqual(sum_of_digits(789), 24)
 
-
-
-
+    
 
 
 
